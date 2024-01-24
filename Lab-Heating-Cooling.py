@@ -20,6 +20,9 @@ print()
 """
 Define a function named convert_temp with 2 parameters: temp_celsius (a number)
 and target_unit (a string, either “C”, “F”, or “K”).
+Write a switch statement that checks the target_unit and returns the temperature converted to that unit.
+Notes: K stands for Kelvin. C requires no conversion, return the original temp.
+
 """
 
 def convert_temp(temp_celsius, target_unit):
